@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="EfRespositoryBase.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MicroService.Core\MicroService.Core.csproj" />
+    <ProjectReference Include="..\MicroService.Data\MicroService.Data.csproj" />
+    <ProjectReference Include="..\MicroService.EntityFramwork.Mysql\MicroService.EntityFramwork.Mysql.csproj" />
+    <ProjectReference Include="..\MicroService.EntityFramwork.Oracle\MicroService.EntityFramwork.Oracle.csproj" />
+    <ProjectReference Include="..\MicroService.EntityFramwork.SqlServer\MicroService.EntityFramwork.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Version>2.0.1.0</Version>
+    <Authors>Fanly</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Product>surging Micro Service Framework</Product>
+    <Description>surging is a distributed micro service framework that provides high-performance RPC remote service calls, using Zookeeper, Consul as the registration center for surging services, integrating hash, random, polling as a load balancing algorithm, RPC integration using the netty framework, Using asynchronous transmission. Use json.net, protobuf, messagepack for serialization Codec</Description>
+    <Copyright>Copyright © fanly All Rights Reserved.</Copyright>
+    <PackageProjectUrl>https://github.com/dotnetcore/surging</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IPNetwork2" Version="2.4.0.124" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Surging.Core.ApiGateWay\Surging.Core.ApiGateWay.csproj" />
+    <ProjectReference Include="..\Surging.Core.KestrelHttpServer\Surging.Core.KestrelHttpServer.csproj" />
+  </ItemGroup>
+
+</Project>

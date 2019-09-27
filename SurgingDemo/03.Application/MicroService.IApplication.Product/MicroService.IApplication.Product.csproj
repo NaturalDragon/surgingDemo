@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="protobuf-net" Version="2.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Infrastructure\MicroService.Core\MicroService.Core.csproj" />
+    <ProjectReference Include="..\..\01.Infrastructure\MicroService.Data\MicroService.Data.csproj" />
+    <ProjectReference Include="..\..\02.Domain\MicroService.Entity.Product\MicroService.Entity.Product.csproj" />
+  </ItemGroup>
+
+</Project>

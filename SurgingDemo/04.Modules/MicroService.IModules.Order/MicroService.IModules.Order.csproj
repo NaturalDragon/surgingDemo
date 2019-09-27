@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.1\MicroService.IModules.Order.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\00.Surging.Core\Surging.Core.KestrelHttpServer\Surging.Core.KestrelHttpServer.csproj" />
+    <ProjectReference Include="..\..\00.Surging.Core\Surging.Core.Protocol.Mqtt\Surging.Core.Protocol.Mqtt.csproj" />
+    <ProjectReference Include="..\..\00.Surging.Core\Surging.Core.Protocol.WS\Surging.Core.Protocol.WS.csproj" />
+    <ProjectReference Include="..\..\01.Infrastructure\MicroService.Data\MicroService.Data.csproj" />
+    <ProjectReference Include="..\..\03.Application\MicroService.IApplication.Order\MicroService.IApplication.Order.csproj" />
+  </ItemGroup>
+
+</Project>

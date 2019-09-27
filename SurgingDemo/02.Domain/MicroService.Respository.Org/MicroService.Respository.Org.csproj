@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\01.Infrastructure\MicroService.EntityFramwork\MicroService.EntityFramwork.csproj" />
+    <ProjectReference Include="..\MicroService.Entity.Org\MicroService.Entity.Org.csproj" />
+    <ProjectReference Include="..\MicroService.IRespository.Org\MicroService.IRespository.Org.csproj" />
+  </ItemGroup>
+
+</Project>

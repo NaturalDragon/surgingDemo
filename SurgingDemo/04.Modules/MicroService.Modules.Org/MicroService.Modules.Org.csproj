@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\00.Surging.Core\Surging.Core.EventBusRabbitMQ\Surging.Core.EventBusRabbitMQ.csproj" />
+    <ProjectReference Include="..\..\00.Surging.Core\Surging.Core.Protocol.Http\Surging.Core.Protocol.Http.csproj" />
+    <ProjectReference Include="..\..\00.Surging.Core\Surging.Core.Protocol.Mqtt\Surging.Core.Protocol.Mqtt.csproj" />
+    <ProjectReference Include="..\..\00.Surging.Core\Surging.Core.Protocol.WS\Surging.Core.Protocol.WS.csproj" />
+    <ProjectReference Include="..\..\00.Surging.Core\WebSocket\WebSocketCore\WebSocketCore.csproj" />
+    <ProjectReference Include="..\..\01.Infrastructure\MicroService.Data\MicroService.Data.csproj" />
+    <ProjectReference Include="..\..\01.Infrastructure\MicroService.EntityFramwork\MicroService.EntityFramwork.csproj" />
+    <ProjectReference Include="..\..\03.Application\MicroService.IApplication.Org\MicroService.IApplication.Org.csproj" />
+    <ProjectReference Include="..\MicroService.IModules.Org\MicroService.IModules.Org.csproj" />
+  </ItemGroup>
+
+</Project>
