@@ -2,7 +2,6 @@
 <p style="text-align: left; margin-left: 30px;"><span style="font-family: 宋体; font-size: 16px;">　　这是基于surging微服务引擎的一个框架，支持MySQL、SqlServer、Oracle，框架面向接口化编程，降低单元之间的耦合，采用autofac实现依赖注入，autoMapper实现数据传输dto与实体entity之间的映射，FluentValidation实现服务端数据校验。</span></p>
 <p style="text-align: left; margin-left: 30px;"><span style="font-family: 宋体; font-size: 16px;">　　surging传送门:<a href="https://github.com/dotnetcore/surging">https://github.com/dotnetcore/surging</a>。</span></p>
 <p style="text-align: left; margin-left: 30px;"><span style="font-family: 宋体; font-size: 16px;">　　框架github地址:<a href="https://github.com/NaturalDragon/surgingDemo">https://github.com/NaturalDragon/surgingDemo</a>。</span></p>
-<p style="text-align: left; margin-left: 30px;"><span style="font-family: 宋体; font-size: 16px;">　　entity序列化参考与Surging.Hero:<a href="https://github.com/surging-cloud/Surging.Hero">https://github.com/surging-cloud/Surging.Hero</a>。</span></p>
 <ul>
 <li style="text-align: left;"><strong><span style="font-family: 宋体; font-size: 16px;">1.项目结构</span></strong></li>
 </ul>
